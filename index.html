@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Example Code</title>
+    <link rel="stylesheet" href="src/styles/examples.css" />
+    <script type="module" defer src="src/modules/nav.js"></script>
+    <script type="module" defer src="/src/examples.js"></script>
+    <script type="module" defer src="/src/examples2.js"></script>
+    <script type="module" defer src="/src/examples3.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>DOM Events Home Page</h1>
+      <my-nav></my-nav>
+    </header>
+
+    <section>
+      <h2>DOM Events</h2>
+      <input type="text" id="todo-input" />
+      <button id="add-todo">Add Todo</button>
+      <ul id="todos"></ul>
+    </section>
+
+    <section class="is-hidden">
+      <h2>The remainder operator</h2>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Number</th>
+            <th>Content</th>
+          </tr>
+        </thead>
+
+        <tbody id="table-body"></tbody>
+      </table>
+    </section>
+
+    <section class="is-hidden">
+      <h2>The onchange event</h2>
+
+      <select>
+        <option value="">Select an option</option>
+        <option value="5">5</option>
+        <option value="10">10</option>
+        <option value="30">30</option>
+        <option value="40">40</option>
+      </select>
+
+      <div class="circles" id="circles-list"></div>
+    </section>
+  </body>
+</html>
